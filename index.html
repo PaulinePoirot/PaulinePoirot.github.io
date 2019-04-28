@@ -1,346 +1,1077 @@
 <!DOCTYPE html>
-<html lang="fr">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-  <title>Pauline Poirot</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
-  <meta name="author" content="3rd Wave Media">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-  <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
-  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pauline Poirot</title>
+
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap and Font Awesome css -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme stylesheet -->
+    <link href="css/style.red.css" rel="stylesheet" id="theme-stylesheet">
+
+    <!-- Custom stylesheet - for your changes -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- owl carousel css -->
+
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Mordernizr -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Responsivity for older IE -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
 </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <img class="profile-image img-responsive pull-left roundedImage" src="assets/images/profile.jpeg" />
-      <div class="profile-content pull-left">
-        <h1 class="name">Pauline Poirot</h1>
-        <h2 class="desc">Apprentie Ingénieure ESIEA</h2>
-        <ul class="social list-inline">
-          <li><a href="https://www.linkedin.com/in/poirotpauline/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/PaulinePoirot" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-        </ul>
-      </div>
-      <aside style="width:422px;float: right;" class="info aside section">
-        <div class="section-inner">
-          <h2 class="heading sr-only">Basic Information</h2>
-          <div class="content">
-            <ul class="list-unstyled">
-              <li><i class="fa fa-map-marker"></i><span class="sr-only">Localisation:</span>Fontenay sous-bois</li>
-              <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">pauline.poirot@outlook.com</a></li>
-              <li><i class="fa fa-phone"></i><span class="sr-only">Téléphone:</span>0750479679</li>
+<body data-spy="scroll" data-target="#navigation" data-offset="120">
+
+    <!-- *** NAVBAR ***
+_________________________________________________________ -->
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand scrollTo" href="#intro">Pauline Poirot</a>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navigation">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#intro">Intro</a>
+                    </li>
+                    <li><a href="#about">A propos</a>
+                    </li>
+                    <li><a href="#services">Compétences</a>
+                    </li>
+                    <li><a href="#formations">Expériences</a>
+                    </li>
+                    <li><a href="#references">Portfolio</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+    </div>
+    <!-- /#navbar -->
+
+    <!-- *** NAVBAR END *** -->
+
+
+    <div id="all">
+
+
+        <!-- *** INTRO IMAGE ***
+_________________________________________________________ -->
+        <div id="intro" class="clearfix">
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="carousel-caption">
+                            <div data-animate="fadeInDown" class="logo">
+                                <img src="img/logo-big.png" alt="logo" width="130">
+                            </div>
+                            <h1 data-animate="fadeInDown">Pauline Poirot</h1>
+                            <h2 data-animate="slideInUp">Apprentie Ingénieure ESIEA</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- *** INTRO IMAGE END *** -->
+
+        <!-- *** ABOUT ***
+_________________________________________________________ -->
+        <div class="section" id="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <h2 class="title" data-animate="fadeInDown">A propos</h2>
+                    </div>
+                    <div class="col-sm-12">
+
+                        <div class="row">
+
+                            <div class="col-sm-6 text-left" data-animate="fadeInUp">
+
+                                <p>Hello, hola, 你好!</p>
+
+                                <div align="justify">              <p>Je m'appelle Pauline, j'ai 22 ans et je suis actuellement en quatrième année du cycle d'ingénieur à l'ESIEA.<br /><br /> J'effectue ce parcours en tant qu'apprentie dans l'entreprise de service informatique Hardis Group.
+
+
+                                   <!-- <p><img class="img-responsive project-image" src="img/esiea.jpg" style="width: 180px;float: left;" /><img class="img-responsive project-image" src="img/cfa.jpg" style="width: 160px;" /> </br>
+                                     <img class="img-responsive project-image" src="img/hardis.png" style="width: 160px;margin-left: auto;margin-right: auto;" /></p> -->
+
+                                    <p> <img class="img-responsive project-image" src="img/esiea.jpg" style="width: 180px;float: left;">  <img class="img-responsive project-image" src="img/cfa.jpg" style="width: 160px;float: left;margin-right: 7px;">  <img class="img-responsive project-image" src="img/hardis.png" style="width: 145px;float: left;"></p>
+
+                                   </div>
+
+                            </div>
+
+                            <div class="col-sm-6" data-animate="fadeInUp">
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        HTML/CSS, Bootstrap
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">80</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        PostgreSQL, MySQL
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        PHP
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill3" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                            <span class="sr-only">50</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        Java
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill4" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                            <span class="sr-only">45</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-item">
+                                    <div class="progress-title">
+                                        C
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-skill5" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                            <span class="sr-only">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#about -->
+
+        <!-- *** ABOUT END *** -->
+
+        <!-- *** SERVICES ***
+_________________________________________________________ -->
+        <div class="section text-gradient" id="services">
+            <div class="container">
+                <div class="col-md-12">
+                    <h2 class="title" data-animate="fadeInDown">Compétences</h2>
+
+                    <div class="row services">
+
+                        <div class="col-md-4" data-animate="fadeInUp">
+                            <div class="icon"><i class="fa fa-search"></i>
+                            </div>
+                            <h3 class="heading">Capacité d'adaptation</h3>
+                            <div align="justify"><p>Que ce soit via ma formation universitaire ou mon expérience professionnelle, j'ai réalisé plusieurs projets qui m'ont appris à travailler en équipe et à m'adapter aux diverses contraintes existantes.</p></div>
+                        </div>
+
+                        <div class="col-md-4" data-animate="fadeInUp">
+                            <div class="icon"><i class="fa fa-html5"></i>
+                            </div>
+                            <h3 class="heading">Expérience pro.</h3>
+                            <div align="justify"><p>Grâce à mon expérience professionnelle, je connais le monde du travail et ses spécificités. Ainsi que le fait de travailler avec un délai, mais surtout de devoir apprendre sur le tas.</p></div>
+                        </div>
+
+                        <div class="col-md-4" data-animate="fadeInUp">
+                            <div class="icon"><i class="fa fa-tachometer"></i>
+                            </div>
+                            <h3 class="heading">Compétences variées</h3>
+                            <div align="justify"><p>Programmation (Java, C), Web (HTML, CSS, PHP, XML, RDF), Base de données (MYSQL, PostgreSQL), Design (Photoshop, Illustrator), Jeux vidéo (Unity), Réseau (IPV4/IPv6) mais aussi de la  Sécurité. </p></div>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="text-center">
+
+                        <p class="lead">Plus d'information sur mes compétences ?</p>
+
+                        <p><a class="btn btn-primary" href="img/cv.pdf" target="_blank"><i class="fa fa-download"></i> Téléchargez mon CV</a>
+                        </p>
+
+                    </div>
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** SERVICES END *** -->
+
+        <section id="formations" class="testimonials-section bg-gray" style="background: #f5f5f5;">
+          <div class="container">
+
+            <header class="text-center mb-2">
+              <h2 data-animate="fadeInUp" class="title">Expériences professionnelles</h2>
+            </header>
+            <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+              <li class="item" style="width: 1145px; height: 525px;">
+                <div class="testimonial full-height">
+                  <div class="text">
+                      <h4 class="title"><i class="fa fa-briefcase"></i> Apprentie - <span class="place"><a href="https://www.hardis-group.com/" target="_blank">HARDIS GROUP</a></span> <span class="year">(septembre 2016 - aujourd'hui)</span></h3>
+                      <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">Front-end : Bootstrap 4 et refonte de l'application en Angular 5, ng2-admin. Refonte visuelle, ajout de nouvelle fonctionnalité et correction de bug.</br>
+                        Création d'une service annexe permettant la gestion d'utilisateur Keycloak.</br>
+                        Back-end : développement Javascript et Java de service back en lien avec AWS, NoSQL.</br>
+                        Installation et gestion de Keycloak et Pydio. </h5>
+<br/>
+                        <h4 class="title"><i class="fa fa-briefcase"></i> Développeuse front-end - <span class="place"><a href="https://www.mousquetaires.com/" target="_blank">Groupement des Mousquetaires</a></span> <span class="year">(juillet 2016 - juillet 2016)</span></h3>
+                        <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">                <p>Montée en compétence en Javascript.</br>
+                                          Intégration web.</br>
+                                          Visuel de planning et chiffrage des projets.</p> </h5>
+
+                        <br/>
+                        <h4 class="title"><i class="fa fa-briefcase"></i> Stagiaire en développement JAVA - <span class="place"><a href="https://www.hardis-group.com/" target="_blank">HARDIS GROUP</a></span> <span class="year">(avril 2016 - juin 2016)</span></h3>
+                        <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">                <p>Projet sous méthode agile, scrum.</br>
+                                          Recette de code.</br>
+                                          Création d'un programme convertissant un fichier csv en json/json schema.</br>
+                                          BDD java avec Cucumber.</br>
+                                          Création d'un programme qui découpe chaque attribut de tableau d'un fichier json en plusieurs fichiers du même format.</p> </h5>
+
+<br/>
+                        <h4 class="title"><i class="fa fa-briefcase"></i> Infographiste/Assistante Chef de Projet - <span class="place"><a href="https://www.mousquetaires.com/" target="_blank">Groupement des Mousquetaires</a></span> <span class="year">(juillet 2015 - août 2015)</span></h3>
+                        <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">                <p>Création de spécification fonctionnelles (Wireframes).</br>
+                                          Création de visuels graphiques d’applications web, mobiles, tablettes.</br>
+                                          Recette d’applications mobiles et tablettes, Bug Tracker.</br>
+                                          Ouverture de ticket d’erreur sur Redmine.</p> </h5></div></div></li></ul>
+
+
+            <header class="text-center mb-2">
+              <h2 data-animate="fadeInUp" class="title">Diplômes et Formations</h2>
+            </header>
+            <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+              <li class="item" style="height: 235px;">
+                <div class="testimonial full-height">
+                  <div class="text">
+                      <h4 class="title"><i class="fa fa-graduation-cap"></i> Diplôme d'ingénieur</h4>
+                      <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">Cursus de trois ans en apprentissage. Deuxième année en filière Systèmes d'Information.</h5>
+                    </div>
+                  <div class="bottom"><br/>
+                    <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                      <h5>ESIEA</h5>
+                      <p>(2017-2020)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="testimonial full-height">
+                  <div class="text">
+                    <h4 class="title"><i class="fa fa-graduation-cap"></i> Licence pro CSID </h4>
+                    <h4 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">Métiers de L’informatique : Développeur d'applications - option Concepteur des Systèmes d’Information, Développeur agile.</h4>
+                    </div>
+                  <div class="bottom">
+                    <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                      <h5>IUT de Montreuil</h5>
+                      <p>(2016-2017)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="testimonial full-height">
+                  <div class="text">
+                    <h4 class="title"><i class="fa fa-graduation-cap"></i> DUT Informatique </h4>
+                    <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">Parcours long : Mathématique pour l'ingénieur, Web sémantique, XML, Sécurité, Jeux vidéo, Indexation et recherche d'informations.</h5>
+                  </div>
+                  <div class="bottom">
+                    <div class="name-picture"><img alt="" src="img/person-3.jpg">
+                      <h5>IUT de Montreuil</h5>
+                      <p>(2014-2016)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item" style="height: 235px;">
+                <div class="testimonial full-height">
+                  <div class="text">
+                    <h4 class="title"><i class="fa fa-graduation-cap"></i> Bac Général Littéraire </h4>
+                    <h5 style="font-size: 13px;color: #999999;text-align: justify;font-family:Lato, arial, sans-serif;">Spécialités Espagnol, littérature Anglaise et option Chinois.</h5>
+                  </div>
+                  <div class="bottom"><br/>
+                    <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                      <h5>Lycée privée Saint François de Sales</h5>
+                      <p>(2013-2014)</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
+        </section>
+        <!-- *** SHOWCASE ***
+_________________________________________________________ -->
+        <div class="section text-parallax parallax-image1" id="references">
+            <div class="container">
+                <div class="row showcase">
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-align-justify"></i>
+                            </div>
+                            <h4><span class="counter">7</span><br>
+
+			Sites web</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-users"></i>
+                            </div>
+                            <h4><span class="counter">4</span><br>
+
+			Jeux vidéo</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-copy"></i>
+                            </div>
+                            <h4>+<span class="counter">10</span><br>
+
+			Design</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" data-animate="fadeInUp">
+                        <div class="item">
+                            <div class="icon"><i class="fa fa-font"></i>
+                            </div>
+                            <h4>+<span class="counter">50</span><br>
+
+			Écrits</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+
+            <div class="dark-mask"></div>
+
         </div>
-      </aside>
+        <!-- /.section -->
+
+        <!-- *** REFERENCES IMAGE ***
+_________________________________________________________ -->
+        <div class="section" id="references">
+            <div class="container">
+                <div class="col-sm-12">
+
+                    <div class="mb20">
+                        <h2 class="title" data-animate="fadeInUp">Portfolio</h2>
+
+                        <p class="lead" data-animate="fadeInUp">Au cours de ma formation, de mes contrats ou bien même de mon temps libre, j'ai participé à de nombreux projets. En voici une sélection. </p>
+                    </div>
+
+                    <ul id="filter" data-animate="fadeInUp">
+                        <li class="active"><a href="#" data-filter="all">Tous</a>
+                        </li>
+                        <li><a href="#" data-filter="site">Sites Web</a>
+                        </li>
+                        <li><a href="#" data-filter="jeu">Jeux Vidéo</a>
+                        </li>
+                        <li><a href="#" data-filter="design">Design</a>
+                        </li>
+                        <li><a href="#" data-filter="other">Autres</a>
+                        </li>
+                    </ul>
+
+                    <div id="detail">
+
+                        <span class="close">&times;</span>
+
+                        <div id="detail-slider"></div>
+
+                        <div class="text-center">
+                            <h1 id="detail-title">&nbsp;</h1>
+                        </div>
+
+                        <div id="detail-content"></div>
+
+                    </div>
+                    <!-- Reference detail -->
+
+                    <div id="references-masonry" data-animate="fadeInUp">
+
+                      <div class="reference-item" data-category="site">
+                          <div class="reference">
+                              <a href="#">
+                                  <img src="img/plusultra/plusUltra1.png" style="height: 167px;" class="img-responsive" alt="" />
+
+                                  <div class="overlay">
+                                      <h3 class="reference-title">Plus Ultra</h3>
+                                      <p>Site web type wikipédia</p>
+                                  </div>
+                              </a>
+
+                              <div class="sr-only reference-description" data-images="img/plusultra/plusUltra1.png, img/plusultra/plusUltra4.png, img/plusultra/plusUltra2.png, img/plusultra/plusUltra3.png">
+
+                                  <p><h3>Résumé</h3>
+
+Plus Ultra est un site web de type wiképédia qui est centré sur le manga My Hero Academia de Kōhei Horikoshi. <br/>
+
+                                  <p><h3>Détails</h3>
+                                      <strong>Date du projet:</strong> Octobre à Novembre 2018<br/>
+                                      <strong>Durée de réalisation:</strong> 2 mois<br/>
+                                      <strong>Cadre:</strong> Formation ESIEA (4ème année)<br/>
+                                      <strong>Groupe:</strong> Réalisé en binôme<br/>
+                                      <strong>Technologies utilisées:</strong> HTML5, CSS (Materialize), Javascript (Vue.js), Node.js (Express)<br/>
+                                      <strong>Statut du projet:</strong> Terminé<br/>
+                              </p>
+
+                                  <p class="buttons">
+                                      <a class="btn btn-primary" href="http://mhfdmhmd-plusultra.glitch.me/" target="_blank"><i class="fa fa-globe"></i> Voir le site</a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+
+
+                      <div class="reference-item" data-category="other">
+                          <div class="reference">
+                              <a href="#">
+                                  <img src="img/shiny/shiny1.png" style="height: 167px;" class="img-responsive" alt="" />
+
+                                  <div class="overlay">
+                                      <h3 class="reference-title">Shiny</h3>
+                                      <p>Pokédex sur mobile</p>
+                                  </div>
+                              </a>
+
+                              <div class="sr-only reference-description" data-images="img/shiny/shiny2.png">
+
+                                  <p><h3>Résumé</h3>
+
+Shiny est une application mobile qui a pour rôle d'être semblable à un Pokédex. (Liste des pokémons de toutes les générations)  <br/>
+
+                                  <p><h3>Détails</h3>
+                                      <strong>Date du projet:</strong> Novembre 2018<br/>
+                                      <strong>Durée de réalisation:</strong> 1 mois<br/>
+                                      <strong>Cadre:</strong> Formation ESIEA (4ème année)<br/>
+                                      <strong>Groupe:</strong> Réalisé en binôme<br/>
+                                      <strong>Technologies utilisées:</strong> HTML/CSS, Gimp, Photoshop<br/>
+                                      <strong>Statut du projet:</strong> Terminé<br/>
+                              </p>
+
+                                  <p class="buttons">
+                                      <a class="btn btn-primary" href="https://github.com/PaulinePoirot/shiny" target="_blank"><i class="fa fa-external-link"></i> Voir le github du projet</a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+
+
+
+                        <div class="reference-item" data-category="site">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/generation/generation0.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Génération 16bits</h3>
+                                        <p>Site web de veille documentaire</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/generation/generation.png, img/generation/generation16b.png, img/generation/generationconso.png, img/generation/generationfranch.png, img/generation/generationjeu.png, img/generation/generationNvsS.png">
+
+                                    <p><h3>Résumé</h3>
+
+Génération 16 bits est un site web de veille documentaire. Le thème choisi est celui des consoles et jeux vidéo des années 90. <br/>
+                                    <a href="img/generation/consigne.pdf" target="_blank">En savoir plus ?</a></p>
+
+                                    <p><h3>Détails</h3>
+                                        <strong>Date du projet:</strong> Novembre à Janvier 2015<br/>
+                                        <strong>Durée de réalisation:</strong> 3 mois<br/>
+                                        <strong>Cadre:</strong> Formation DUT Informatique<br/>
+                                        <strong>Groupe:</strong> Réalisé en trinôme<br/>
+                                        <strong>Technologies utilisées:</strong> HTML/CSS, Gimp, Photoshop<br/>
+                                        <strong>Statut du projet:</strong> Terminé<br/>
+                                </p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://generation-16-bits.glitch.me/" target="_blank"><i class="fa fa-globe"></i> Voir le site</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="site">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/bookbay/bookbay.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Bookbay</h3>
+                                        <p>Bibliothéque avec base de données</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/bookbay/bookbay3.png,img/bookbay/bookbay1.png,img/bookbay/bookbay2.png">
+
+                                    <p><h3>Résumé</h3>
+                                    <div align="justify">Bookbay est un site web qui permet de gérer des livres ainsi que leurs emprunts. Les droits sont différents selon que l'on soit connecté en tant qu'éditeur, imprimeur ou administrateur.</p></div>
+
+                                    <p><h3>Détails</h3>
+                                        <strong>Date du projet:</strong> Janvier 2015<br/>
+                                        <strong>Durée de réalisation:</strong> 1 semaine<br/>
+                                        <strong>Cadre:</strong> Formation DUT Informatique<br/>
+                                        <strong>Groupe:</strong> Réalisé en ocutor<br/>
+                                        <strong>Technologies utilisées:</strong> HTML/CSS, PHP, PostgreSQL, WinDesign, Gimp<br/>
+                                        <strong>Statut du projet:</strong> Terminé<br/>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="site">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/symphoniut/symphoni.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">SymphonIUT</h3>
+                                        <p>Site de gestion de la salle de musique de l'IUT</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/symphoniut/symphoniut1.png, img/symphoniut/symphoniut2.png, img/symphoniut/symphoniut3.png, img/symphoniut/symphoniut4.png, img/symphoniut/symphoniut5.png, img/symphoniut/symphoniut6.png, img/symphoniut/symphoniut7.png, img/symphoniut/symphoniut8.png">
+
+                                    <div align="justify"><p><h3>Résumé</h3>
+                                        SymphonIUT est un projet destiné à la gestion de la salle de musique, accessible à tous les étudiants, jouant ou non d’un instrument. L’objectif est de réaliser une interface web similaire à l’emploi du temps déjà mis en place sur le site de l’IUT de Montreuil afin que les étudiants puissent gérer eux-mêmes l’accès à la salle. <br/></div>
+                                    <a href="img/symphoniut/poster.png" target="_blank">Poster réalisé en communication</a></p>
+                                    <a href="img/symphoniut/Symphoniut.pdf" target="_blank">PowerPoint du projet</a></p>
+                                    <a href="img/symphoniut/BilanProjet.pdf" target="_blank">Bilan du projet</a></p>
+
+                                    <p><h3>Détails</h3>
+                                        <strong>Date du projet:</strong> Mars à Juin 2015<br/>
+                                        <strong>Durée de réalisation:</strong> 4 mois<br/>
+                                        <strong>Cadre:</strong> Formation DUT Informatique<br/>
+                                        <strong>Groupe:</strong> Réalisé en sextuor<br/>
+                                        <strong>Technologies utilisées:</strong> HTML/CSS, PHP, Java, Javascript, SQL, WinDesign, EasyPHP, Gimp<br/>
+                                        <strong>Statut du projet:</strong> Terminé<br/>
+                                </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="design">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/poivrerouge/poivre.jpg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Poivre Rouge</h3>
+                                        <p>Design menu et carte fidélité</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/poivrerouge/poivre1.png, img/poivrerouge/poivre2.png ">
+
+                                    <div align="justify"><p>Lors de mon travail à la STIME, il m'a fallut faire les icons du menu de l'application mobile Poivre Rouge. Le menu connecté/déconnecté, mais aussi la partie fidélité du client. Ensuite, j'ai du imaginer plusieurs carte de fidélité Poivre Rouge pour l'afficher dans l'application lorsque celle-ci sera mise à jour.</p></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="design">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/drive/drive.jpg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Drive Intermarché</h3>
+                                        <p>Maquettes nouveau profil</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/drive/1.png,img/drive/2.png,img/drive/3.png,img/drive/4.png,img/drive/5.png">
+
+                                    <div align="justify"><p>Maquettes de pop-up pour l'application Drive Intermarché, sur tablette et mobile. Elles permetent de faire visualiser aux développeur les modifications à effectuer pour rajouter le compte unique. Le compte unique sert à lier son compte du drive au compte des autres applications (intermarché.com, monInter...).</p></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="design">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/moninter/moninter.jpeg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Mon Inter</h3>
+                                        <p>Maquettes newsletters et pop-up</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/moninter/1.png,img/moninter/2.png">
+
+                                    <div align="justify"><p>Maquettes de pop-up pour l'application MonInter sur mobile. Elles permetent de faire visualiser aux développeur les modifications à effectuer pour rajouter le compte unique. Le compte unique sert à lier son compte du drive au compte des autres applications (intermarché.com, Drive...).</p></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="design">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/intermarche/inter.jpg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Intermarche.com</h3>
+                                        <p>Maquettes de pop-up</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/intermarche/1.png,img/intermarche/2.png,img/intermarche/3.png">
+
+                                    <div align="justify"><p>Maquettes de pop-up sur le site Intermarche.com en lien avec le compte unique pour lier son compte intermarche.com au compte des autres applications (drive, monInter...).</p></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="reference-item" data-category="site">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/ptitcookie/cookie.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">P'tit Cookie</h3>
+                                        <p>Site regroupant des astuces de tous les jours</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/ptitcookie/cookie4.png, img/ptitcookie/cookie1.png, img/ptitcookie/cookie2.png,img/ptitcookie/cookie3.png">
+
+                                   <div align="justify"> <p><h3>Résumé</h3>
+                                       Ptit Cookie est un site web qui recense des idées et astuces utiles quotidiennement, rangées sous différentes catégories (décoration, cuisine, coiffure...). Présenté comme un blog, ce site permet aux utilisateurs inscrits de poster un article, qui peut être illustré avec des images ou des liens de vidéo, afin d'y décrire au mieux leurs idées. <br/></div>
+
+                                    <p><h3>Détails</h3>
+                                        <strong>Date du projet:</strong> Octobre à Décembre 2015<br/>
+                                        <strong>Durée de réalisation:</strong> 3 mois<br/>
+                                        <strong>Cadre:</strong> Formation DUT Informatique<br/>
+                                        <strong>Groupe:</strong> Réalisé en trinôme<br/>
+                                        <strong>Technologies utilisées:</strong> HTML/CSS, PHP, Javascript, JQuery, PhpMyadmin, SQL, Gimp<br/>
+                                        <strong>Statut du projet:</strong> Terminé<br/>
+                                </p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.dropbox.com/s/8z5xqc3qzpoelpf/ptitCookie.zip?dl=0" target="_blank"><i class="fa fa-globe"></i> Télécharger le projet</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="reference-item" data-category="jeu">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/iutsimulator/accueil.png" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">IUT Simulator</h3>
+                                        <p>Visual Novel avec Ren'py</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/iutsimulator/0.png, img/iutsimulator/1.png,img/iutsimulator/2.png,img/iutsimulator/3.png,img/iutsimulator/4.png">
+
+                                     <p><h3>Résumé</h3>
+                                    <div align="justify"><p>IUT Simulator est un visual novel, c'est à dire un roman interactif développé avec Ren'py (codé en Python). C'est un jeu vidéo dont l'histoire est basée sur l'IUT de Montreuil. Le joueur est un étudiant informatique de l'IUT et l'ensemble du jeu se déroule dans les trois vieux bâtiments de la structure de Montreuil. Le joueur se promène donc dans le vrai IUT, ayant la possibilité d'interagir avec professeurs et étudiants, de répondre à des questions techniques d'informaticien ou bien de faire face à son talent de détective, il suit une histoire principale en décidant différentes actions proposées, en fonction de ses réactions, ce qui lui permet d'avoir des scènes propres en fonction de ses choix.</p></div>
+ <br/>
+                                    <a href="img/iutsimulator/affiche.png" target="_blank">Poster réalisé pour l'évalution marketing</a></p>
+                                    <a href="img/iutsimulator/slide.pdf" target="_blank">Slide de présentation marketing</a></p>
+
+                                    <p><h3>Détails</h3>
+                                        <strong>Date du projet:</strong> Février 2016 à Avril 2016<br/>
+                                        <strong>Durée de réalisation:</strong> 2 mois<br/>
+                                        <strong>Cadre:</strong> Formation DUT Informatique<br/>
+                                        <strong>Groupe:</strong> Réalisé en duo<br/>
+                                        <strong>Technologies utilisées:</strong> Photofiltre Studio, Ren'py, Python<br/>
+                                        <strong>Statut du projet:</strong> Terminé<br/>
+                                </p>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary" href="https://www.dropbox.com/sh/no1nibz62hxpu2w/AADqI7_5EHbKC_BnwZumhAXna?dl=0" target="_blank"><i class="fa fa-download"></i> Télécharger le jeu</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="other">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/ireel.jpg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Monde iréel</h3>
+                                        <p>Imagination d'un monde iréel</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/ireel.jpg">
+
+                                    <p>Dans le cadre du cours de Communication de 1ère année de DUT Informatique, il fallait imaginer un monde imaginaire et le décrire par le biais d'une courte histoire. </p><br/>
+
+                                    <div align="justify"><p>On raconte qu'une fois endormies certaines personnes auraient la capacité de rejoindre un tout autre monde. Ces personnes ne répondraient à aucun critère en particulier et c'est cette diversité qui ferait la beauté de ce monde de rêve. Cependant, une fois rentré dans cet univers, toutes les valeurs sont bouleversées ; plus personne n'est celui qu'il était. Gardant seulement quelques brides de sa vie réelle, un homme peut se retrouver femme aussi bien qu'un bambin dans la sagesse d'un centenaire. Mais n'allez pas croire que ce genre de changement est obligatoire ; effectivement il est déjà arrivé qu'une femme se retrouve dans un corps du même genre avec une apparence presque similaire à celle de son corps endormi.</p>
+
+<p>Là-bas, le monde n'est pas tel qu'on le connaît ; la ville est séparée en quatre quartiers distincts : celui des pauvres, de la classe moyenne, des riches et de l'entourage de la reine Heart. En effet, cette ville est en vérité gouvernée par une reine semblable en tout point à cette Reine sadique d'Alice aux pays des merveilles. Mais, malgré cette monarchie absolue, nombreux sont les chimériques qui apprécie cette ville remplie d'aventures. Parce qu'il se trouve que ce corps qu'ils possèdent pendant leurs rêves ne dispose d'absolument aucun souvenir de leur vie d'antan.. Comme si ces personnes n'avaient jamais vécu. Certains ne savent même plus qui ils étaient, jusqu'à même oublier le visage de leurs amis et famille. </p>
+
+<p>Cependant, ce monde n'en reste pas moins intéressant. Il faut découvrir, s'aventurer, se souvenir dans cet endroit où l'amnésie est tabou. L'oublie étant considéré comme une folie évidente et passible de prison par la Reine. Mais chacun est là, dans cette étrange ville à vivre dans le but de comprendre, de découvrir qui il était. Car plusieurs d'entre eux ne sont pas totalement humain. Quelques-un se seraient trouvé être en réalité l'esprit de l'eau ou bien un ange tombé des cieux. Personnes n'auraient à chercher, en toute discrétion, autres choses que ses souvenirs perdus; tout son monde, sa vie, son travail, tout est lié à lui comme une sorte de dépendance.</p>
+
+<p>Cet univers apparaît sûrement comme un lieu fastidieux mais surtout fantastique. Car la fantaisie est le maître de cette humanité; de part ses nombreuses îles volantes à travers le monde, cette forêt aux couleurs inversées ou bien ce fleuve noir au fond inconnu. A ce moment là, on pourrait certainement croire que cette civilisation est le résultat d'une imagination commune de toutes ces personnes endormies… Seulement si une fois réveillées, elles ne l'avaient pas complètement oublié.</p></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="other">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/minautore.jpg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Mythe</h3>
+                                        <p>Réécriture du mythe du minotaure</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/minautore.jpg">
+
+                                    <div align="justify"><p>Dans le cadre du cours de Communication de 1ère année de DUT Informatique, il fallait étudier le mythe du Minotaure de Thésée et le réécrire à sa manière, en modifiant le point de vue, imaginant une suite… L'écrit était libre tant qu'il était en rapport avec la base même du mythe connu.</p></div><br/>
+
+                                    <div align="justify"><p>Chaque année, le Roi apportait un divin met. C'était de cette nourriture que l'on considérait comme la plus délicieuse mais aussi comme étant des plus rare. Pourtant, jadis cette viande était l'une des plus facile à chasser. Malheureusement au cours des années, la loi de la chaîne alimentaire avait fait tourner les valeurs. A force de les dévorer à chaque heures de la journée, trouver un simple petit morceau de Tangata devint compliqué. C'est pour cela que dorénavant, lorsque l'on trouvait un de ces animaux il fallait l'offrir au Roi. C'était l'unique règle et celle qu'on ne devait jamais, au grand jamais, enfreindre. Ainsi, lorsque le Roi recevait un Tangata, il le gardait, le nourrissait et le soignait avec la plus grande des attentions dans le but de l'offrir à son peuple. C'était comme ça, tout les ans, quatorze d'entre nous étaient tirés au sort, lâchés dans cet incroyable labyrinthe avec comme seul mission d'arriver jusqu'à la bête. Quatorze enfermés sans aucun repère entre des murs de pierre, quatorze à ce battre pour savoir qui allait dévorer cette délicieuse nourriture…</p>
+
+<p>Cette année-là, comme toutes les précédentes, lors du tirage au sort les mêmes problèmes survinrent ; les plus vieux criaient de ne jamais avoir été tirés, certaines mères pleuraient de nouveau la mort d'un de leur enfant tirés les années précédent et les jeunes se battaient entre eux pour montrer qui est le plus méritant à être choisit. A l'appel des noms, je fus surpris. Entendre le mien, entendre le Roi m’appeler de son balcon. Être tiré vers l'avant, devenir un genre d'élu, avoir cette possibilité tant convoitée de pouvoir goûter cette nourriture. Cela me fit un choc… D'ailleurs, ma famille avait été autant surprise que moi ; sauf qu'ils reprirent rapidement leur esprit en me demandant de leur ramener un morceau de Tangata.</p>
+
+<p>Il faut l'avouer, je fus doublement surpris à mon arrivé dans le labyrinthe. Je pensais que ce « jeu » était difficile, mais une fois à l'intérieur je compris : nous les minotaures ayant les sens très fragiles, nous sentions tous. Absolument tous. Je veux dire par là que je savais exactement l'emplacement de l'animal mais aussi de tous les autres minotaures présents entre ces murs. Ainsi, la complexité de ce jeu, le fait que certains d'entre nous ne revenaient jamais, était que les sélectionnés s’entre-tuaient dans le but d'avoir le monopole du Tangata. </p>
+
+<p>Je n'eus pas le temps de réfléchir et comme je savais où elle était, je me précipitais dans sa direction. Elle avait peur, elle voulait s'enfuir. Malheureusement pour elle, comme il s'agissait d'un labyrinthe son affolement la faisait s'approcher de moi. Rapidement, comme nous courrions tous les deux, nous nous retrouvâmes face à face. Et je fus fasciné. A ce moment, je compris pourquoi tout le monde se battait pour la dévorer malgré son peu de chair. Elle était si belle, si envoûtante avec sa longue chevelure blonde semblable à la couleur de l'or...</p></div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="other">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="img/histoire.jpg" class="img-responsive" alt="" />
+
+                                    <div class="overlay">
+                                        <h3 class="reference-title">Histoire</h3>
+                                        <p>Histoire imaginaire alliant plusieurs races</p>
+                                    </div>
+                                </a>
+
+                                <div class="sr-only reference-description" data-images="img/histoire.jpg">
+
+                                    <div align="justify"><p>Histoire écrite durant mon temps libre. Elle raconte l'histoire d'un adolescent « Tom » qui appartient à une famille de loup-garou avant son entrée à l'Académie Tenjo. Dans ce monde, il existe de très nombreuses races (loup-garou, vampire, robot, microbe, ange, démon…). La base du contexte correspond à un forum RPG « L'Académie Tenjo » aujourd'hui fermé.</p></div><br/>
+
+                                    <div align="justify">
+                            <p><h3>Chapitre Premier</h3></p>
+
+
+<p>De la peur. Des cris. Un massacre. Tu ne te souviens de rien. Tu étais trop jeune, beaucoup trop jeune. Tu ne savais pas marcher, tu ne savais pas parler ; tu étais un parfait enfant. Un enfant innocent et ignorant. Tu n’avais même pas un an, en fait tu n’avais que quelques misérables mois. Alors comment un tel événement pouvait se produire à l’étage inférieur ? Pourquoi un tel drame pouvait-il arriver à ta famille ? Qu’avait donc fait les Tokugawa pour que des vampires viennent s’attaquer à eux sur leur propre territoire.</p>
+
+<p>A ce moment-là, tu étais à l’étage dans une chambre avec les trois aînés. Tandis que tu dormais dans ton berceau, tes deux frères et ta grande-sœur jouaient calmement. Puis il y eu un bruit, un cri. Un simple cri, le cri d’un enfant. D’un garçon. Le premier était tombé. L’appel te réveilla, le bruit les inquiéta. Tes aînés arrêtèrent leur jeu, ce demandant qui avait crié. Mais la réponse était simple, il n’y avait que deux enfants au rez-de-chaussée… Des bruits de casses, des bruits de destruction. Aucun bambin n’eut le courage de sortir de la pièce, ils étaient tous effrayés. Ils ne comprenaient pas ce qui était en train de se dérouler juste en dessous de leurs pieds, mais surtout ils ne désiraient pas le savoir.</p>
+
+<p>Tandis que certains pleuraient, une femme à la longue chevelure brune entra dans la chambre avec vitesse, posant son doux regard azur sur ses quatre enfants, celui qui avait le don de les réconforter sans le moindre mot. Elle ferma la porte de la grande pièce à double tours. Mais que ce passait-il exactement ?</p>
+
+<p>Une attaque.</p>
+
+<p>Au fils des siècles, d’années en années, il en a toujours été ainsi. Les vampires et les loup-garous ne s’apprécient pas, ils ne s’aiment pas en clair, ils se haïssent tout simplement. Alors lorsque deux vieilles familles vivent à une distance déraisonnablement proche, il se produit généralement… Quelques légers accidents. Ainsi, ce jour-là, pour un simple règlement de compte, des vampires étaient venues attaquer la famille Tokugawa. Ce n’était pas la première fois qu’un tel événement se produisait, mais c’était le premier que tu avais vécu. Le premier et certainement pas le dernier…</p>
+
+<p>Enfermé dans cette pièce couverte par les sanglots d’Elisa et par tes cris d’enfant perdu, tu étais dans les bras du jeune Shun. Vous étiez tous les quatre dans un coin de la chambre, à vous réconforter mutuellement comme pouvait le faire des enfants de bas-âge. Toi tu n’en avais peut-être pas conscience, mais tes trois aînés savaient, leur instinct de loup leur disait. En bas, c’était un véritable carnage.</p>
+
+<p>Tu n’étais en aucun cas un témoin direct de la scène, ainsi tu ne sais pas vraiment ce qui s’est passé ce jour-là. D’ailleurs, même si tu avais eu l’occasion de voir l’attaque tu ne t’en serais sans doute jamais souvenu. Tu étais un enfant, un bébé plus précisément, trop jeune pour te souvenir de quoique ce soit. Aujourd’hui encore, la seule chose que tu sais à propos de cette attaque, et qu’une dizaine de vampire avait pénétré dans le manoir des Tokugawa dans le but d’éliminer une partie du clan lycan. En fait, il s’agissait de la seule et  unique chose que tes parents racontaient à propos de cette attaque. Comme si ils désiraient oublier, comme si toute la famille avait rejeté leur existence.</p>
+
+<p>Cependant, les aînés ne pouvaient oublier. Ils ne savaient pas faire semblant. Surtout Hajime et Shun. Ils n’étaient peut-être que des enfants âgés de cinq ans, mais toute leur vie ils se rappelleraient de cet instant précis où leur père si puissant était tombé. Toi, tandis que tu étais toujours dans les bras de Shun, tu ne te souviens pas de ce moment. Mais Shun, t’en avais parlé, il te l’avait raconté car tu lui avais demandé. Car tu voulais savoir, parce que toi tu ne voulais pas oublier. Tu avais vécus cela, même si tu n’étais qu’un petit enfant. Tu voulais savoir ce qui c’était réellement passé, ce qu’ils savaient vraiment.</p>
+
+<p>Shun t’avait alors raconté cet effondrement. Alors que vous sortiez tous de la chambre qui vous avait protégé de ce massacre, votre père était en face d’une de ses sœurs. Il était en face de Mitsuki. Ils étaient tous deux blessés, rien de très grave mais ils l’étaient tout de même. Un air grave s’affichait sur le visage de votre paternel, tandis que votre tante semblait désolée. L’homme criait, demandant de sa voix grave un rapport sur l’affrontement. Alors que Mitsuki c’était mordue la lèvre inférieure jusqu’à en faire couler du sang, elle avait révélé avec une grande tristesse :</p>
+<p>« Il… Il y a eu beaucoup de blessés. Des blessures légères, mais d’autres beaucoup plus grave. Emi s’occupe actuellement des divers cousins mal en point qui ont aidés à faire fuir ces vampires. Mais… Je… Tom, Elisa, Shun et Hajime vont bien, ta femme à elle-même protégé la chambre où ils étaient enfermés mais… »</p>
+
+<p>« Mais ? Qu’est-il arrivé à Jean Christophe et Jean Henri Albert ?! » Cria le père de famille à sa sœur.</p>
+</p>
+<p>« Ils… Ils sont morts Daisuke... »</p>
+
+
+<p>Et l'homme s'écroula. Anéantit.</p><br/>
+
+
+                            <p><h3>Chapitre Second</h3></p>
+
+<p>Inconsciemment, tu te rappelles encore de cet instant. Mais tu n’étais âgé de seulement un an, alors tu ne t’en souviens que très vaguement, comme un passage inexistant ou bien un rêve hantant. A ce moment-là, tu étais avec le reste de ta famille et tu n’avais pas quitté les bras de ta mère…</p>
+
+<p>Depuis longtemps, il avait été décidé que ta mère, Emi, louve-garoute très dure vis-à-vis des vieilles traditions considérées aujourd’hui comme illogiques, s’occuperait de l’éducation de tous les jeunes louveteaux Tokugawa. En fait, il s’agissait surtout d’un moyen parmi tant d’autres, pour ne pas pervertir l’âme de cette famille ancestrale par les nouveautés techniques. Cela peut sembler quelque peu paradoxal lorsque l’on connaît le goût très prononcé de ton père par rapport à la science et toutes les technologies qui en suivent. C’est d’ailleurs pour cette raison que ; qu’importe l’éducation qu’offrait Emi à ses enfants, ces derniers étaient beaucoup plus proche de leur paternel et des inventions du XXIème siècle.</p>
+
+<p>Mais toi, en résultat de l’attaque tu ne vus pas ton père pendant de longs mois. En fait, pour être plus précis aucun membres de la famille Tokugawa n’aperçus ce chef alpha légèrement étrange. Il c’était coupé du monde, il avait disparu. L’homme c’était enfermé dans les tréfonds du manoir. Personne ne chercha véritablement à savoir ce qu’entreprenait Daisuke dans ces lieux interdit. Chacun avait sa propre opinion, mais personne n’en parlait librement. Car tous savaient que sous leurs pieds se trouvait son lieu d’esprit, son laboratoire.</p>
+
+<p>Alors que tu avais un peu plus d’un an. Ton père était enfin sortit de son terrier, demandant à chaque membres de la famille présents de se réunir dans la salle commune. Lorsque l’homme remonta, il n’était pas seul. Il était en compagnie d’une femme, d’une jeune femme inconnue. Toutes les personnes présentes se lancèrent des regards d’incompréhension. Qui était cette demoiselle à la longue chevelure verte ?</p>
+<p>« Voici Kamille. » Annonça le père avec joie aux membres présents de sa famille</p>
+
+<p>Elle s’appelait Kamille. Et c'était un robot.</p><br/>
+
+
+                            <p><h3>Chapitre Troisième</h3></p>
+
+<p>Et les années passèrent l’une après l’autre. Tu fus élevé par ta mère en bonne et due forme, comme tes trois cadets. Après l’apparition de Kamille dans ta vie, il n’y aucun événement réellement marquant. Sauf celui de tes seize ans. Celui-là, tu ne l’oublieras jamais. Celui-là, il t’aura à jamais marqué. Celui-là, tu aurais aimé ne jamais l’avoir vécu…</p>
+
+<p>Gourmand comme tu es, tu avais pris l’habitude de voler de la nourriture dans la cuisine du manoir. Sauf que ce jour-là, Kamille t’avait attrapée. Ce n’était pas la première fois, d’ailleurs comme tu passais beaucoup de temps avec l’android, il était fréquent qu’elle t’empêche de te nourrir comme tu l’aimerais. Et cela était à cause de tes aînés. Tandis que tu avais pris un paquet de chips gout paprika que tu comptais manger sous le soleil de l’après-midi, Kamille t’avait mis la main dessus et allait t’empêcher de manger ton du. Alors, tu avais fuis. Gentiment, car au fond de toi, tu appréciais lorsque qu’elle t’attrapait et tu ne désirais pas spécialement t’éloigner d’elle. Alors, tu étais sorti du manoir en marchant avec vitesse.</p>
+
+<p>Autour du manoir, il n’y avait rien mis à part la forêt. En fait, c’était le principe de la demeure ; ne rien avoir autour pour que les membres de la famille Tokugawa puissent chasser à tout va les nuits de pleines lunes. Il était vraiment très rare que des personnes arrivent à atteindre l’habitat des lycans, c’est d’ailleurs pour cela que, lorsque tu ouvris ton paquet de chips et que tu tombas nez à nez devant deux hommes, tu fus surpris. En fait, ce n’étaient pas des hommes, des vrais hommes, des êtres humains. Ils s’agissaient de deux vampires, mais ça tu ne l’avais pas remarqué immédiatement. L’un d’eux vous avez demandé à Kamille et à toi si vous apparteniez à la famille Tokugawa. Tu avais choisis de te taire, préférant manger quelque chips, mais l’android qui t’accompagnait avait acquiescé et ce fut la toute première de ses erreurs.</p>
+
+<p>Puis, grâce à leur sourire éclatant tu remarqua ce qui clochait chez eux. Ils avaient des crocs, des crocs de prédateur, des crocs de vampire. A ce moment précis, tu te rappelas de l’attaque qui avait pris Jean Christophe et Jean Henri Albert. Ils étaient là pour toi, pour tuer les louveteaux Tokugawa et il était certain que ces deux joyeux lurons n’étaient pas seuls. Au début tu ne savais que faire, essayer de fuir ? Tu savais pertinemment que tu ne pouvais rien faire contre eux, et Kamille ? Non, tu ne pouvais pas te reposer sur cette femme, tu ne voulais pas. Il fallait que tu fasses quelque chose, mais… Quoi ?</p>
+
+<p>Tandis que l’un des deux vampires levait sa main, l’avançant à ta hauteur, tu compris ce qu’il allait se produire. Ton instinct te disait qu’il possédait un pouvoir, comme certains membres de ta fratrie. Tu esquissas alors un sourire moqueur sur ton visage tout en prenant quelques chips de ton paquet. Tu étais leur cible et s’ils ne comptaient que sur des misérables pouvoirs, ils allaient très vite être déçus.</p>    
+<p>Parce que tu avais ton propre pouvoir, celui d’annihiler ceux des autres. Malheureusement, le tien avait toujours eu le malin plaisir de toujours se dérégler. Effectivement, ton annulation était toujours –ou presque- active sur toi, mais ; elle pouvait un jour annihiler les pouvoirs dans toute une pièce et le lendemain ne marcher que si tu touchais la personne visé… C’était un pouvoir assez contraignant surtout du point de vue de ta mère qui ne pouvais donc pas t’imposer sa volonté lorsque tu entreprenais un acte mauvais qui lui déplaisait fortement.</p>
+
+<p>Mais ce que tu n’avais pas imaginé, c’était que Kamille se positionne entre vous et qu’elle s’écrasa soudainement au sol, il semblait y avoir un problème de gravité… Mais, en remarquant la tête du vampire tu compris rapidement qu’il s’agissait là de son pouvoir. Toi, il ne t’arriva rien, comme si tu étais ton propre centre de gravité, ton centre du monde. A ce moment-là, lorsque Kamille te regarda, révélant ton nom comme ses dernières paroles, tu savais que tous était fini. Même si elle était un android, même si elle était résistante, son heure était venue. Parce que ses yeux explosèrent. Tu avais décidé de tout abandonné –même ton paquet de chips, pour dire-, tu ne connaissais pas ce sentiment qui était en train de t’habiter, mais tu ne comptais même plus te défendre. Kamille n’allait plus être là. Alors, tu t’écroulas.</p>
+
+<p>Et un bruit retentit. Un cri héroïque. Celui-ci semblait pourfendre l’air pour disparaître quelque seconde plus tard. Une boucle sans fin. Tu connaissais ce timbre, tu savais à qui appartenait cette voix. Mais que faisait-il ici ? Pourquoi cet homme que tu considérais comme ton modèle, cet homme qui avait été renié de la famille était-il dans les bois ce jour-là ? Tu n’avais plus aucune volonté, tes yeux violets étaient comme attirés devant le corps aplatit de Kamille. Alors, tu ne regardas pas l’homme qui était en train de te sauver, tu ne te souvenais même pas qu’il pouvait se téléporter. C’était d’ailleurs grâce à ça qu’il avait pu te venir en aide. En fait, sans véritablement le savoir vous étiez liés pour  une raison que vous ignorez. Lorsque l’un de vous deux avaient un quelconque problème, l’autre le ressentait comme une sorte de maladie. Parce que tu étais le seul loup qui croyais encore en lui.</p>
+
+<p>Tandis que le combat faisait rage devant toi, tu ne pensais plus à rien. Tu étais perdu face à ce corps robotique. Tu étais vide, semblable à une coquille. Comme si avec son départ, tu avais perdu toute ton énergie, toute ton envie de vivre. Tu n’avais jamais rien ressentit de tel  pendant tes seize années d’existence, et d’ailleurs tu ne comprenais rien. Pourquoi cette perte te rongeait tant ? C’est sûrement pour cette raison qui t’étais inconnue que, lorsque tu sentis cette main réconfortante sur ton épaule, tu ne pus articuler que deux misérables mots.</p>
+<p>« Shun… Elle… »</p>
+
+<p>« Je suis désolé Tom. » coupa l’aîné.</p>
+
+<p>Tandis que ta tête se trouvait au-dessus du corps de Kamille, une goutte tomba sur le visage de l'Androïde. Puis d'autres s'en suivirent tout naturellement, les unes après les autres comme les notes d'un requiem. Pourtant, cet après-midi-là, il ne pleuvait pas.</p>
+
+<p>Tu l'avais tout simplement perdu.</p><br/>
+
+
+                <p><h3>Chapitre Quatrième</h3></p>
+
+<p>Tu étais encore sous le choc de l’attaque. Tu avais perdu Kamille et c’était par ta faute. Si tu n’avais pas pris ce paquet de chips, si tu ne l’avais pas entraîné dans la forêt du manoir, rien de tout cela ne serait arrivé. Après l’événement, tu avais même essayé de refaire entrer Shun dans les grâces familiales, car il t’avait sauvé la vie. Mais ton père n’avait rien voulu entendre, ce louveteau avait déshonoré la famille et rien ne pouvais le racheter, même pas ta vie.</p>
+
+<p>Tu t’étais excusé encore et encore, car lui t’avait sauvé et tu ne pouvais rien faire en retour pour ce loup. Mais il ne t’en voulait pas. Il aimait sa non-louve et c’était tout ce qui lui importait. En parallèle de ces excuses inutiles, tu suppliais ton père pour une toute autre raison. Il avait décidé de construire un autre android pour remplacer Kamille, mais ça tu ne voulais pas. Tu n’en voulais pas un autre, tu l’as voulait elle, simplement. Au début, ton père avait été réticent à cette idée, certes sa carte mère était toujours active, mais cela allait demander beaucoup plus d’effort que de créer un nouvel être. Mais tu n’avais pas baissé les bras, désirant plus que tout le retour de cet humanoïde.</p>
+
+<p>C’est alors que tu reçus une lettre. Une lettre semblable à celle que Shun avait reçue voilà maintenant six ans. Cette lettre était simple, elle te révélait que tu étais convié à entrer à l’Académie Tenjo à la rentrée qui arrivait. Ton père c’était simplement opposé à ce que tu y ailles, pour la raison que son seul enfant qui y avait été auparavant c’était entiché d’une non-louve. Mais tu lui avais répondu que tu n’étais pas Shun, tu n’étais pas comme lui et il fallait que tu changes d’air. Il fallait que tu oublies que Kamille avait été détruite par ta faute, il fallait que tu oublies ces attaques… Cependant, avant de partir sur cette île inconnue, tu arrivas à faire changer d’avis ce loup alpha ; il accepta de se plier à ton désir et de réparer cet android que tu convoitais tant… </p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /#references-masonry -->
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** REFERENCES END *** -->
+
+        <!-- *** CONTACT ***
+_________________________________________________________ -->
+
+        <div class="section contact" id="contact" data-animate="bounceIn">
+            <div class="container">
+                <div class="col-md-12">
+
+
+                    <h2 class="title">Contact</h2>
+
+                    <div class="row">
+
+                        <div class="col-md-8 col-md-offset-2">
+                            <form id="contact-form" method="post" action="contact.php">
+
+                                <div class="messages">
+
+                                </div>
+
+                                <div class="controls">
+
+                                     <div class="row">
+                                       <div class="col-md-6">
+                                            <input type="text" name="name" class="form-control" placeholder="Your firstname *" required="required">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="email" class="form-control" placeholder="Your email *" required="required">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" name="phone" class="form-control" placeholder="Your phone">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"></textarea>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <input type="submit" class="btn btn-primary btn-lg" value="Send message">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** CONTACT END *** -->
+
+        <!-- *** FOOTER ***
+_________________________________________________________ -->
+
+        <div class="section" id="footer">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+                        <p class="social">
+                            <a href="https://www.linkedin.com/in/poirotpauline/" target="_blank" class="external facebook" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/PaulinePoirot" target="_blank" class="external instagram" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github-alt"></i></a>
+                            <a href="pauline.poirot@outlook.com" target="_blank" class="email" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-envelope"></i></a>
+                        </p>
+                    </div>
+                    <!-- /.6 -->
+
+                    <div class="col-sm-6">
+                        <p>&copy; 2019 Pauline Poirot. All rights reserved.</p>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <p class="template-bootstrapious">Template by <a href="http://www.bootstrapious.com">Bootstrap Templates</a> with support from <a href="http://kakusei.cz">Designový nábytek</a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** FOOTER END *** -->
+
+
+
     </div>
-  </header>
+    <!-- /#all -->
 
-  <div class="container sections-wrapper">
-    <div class="row">
-      <div class="primary col-md-8 col-sm-12 col-xs-12">
+    <!-- #### JAVASCRIPT FILES ### -->
 
-        <section class="experience section">
-          <div class="section-inner">
-            <h2 class="heading">Expériences professionnelles </h2>
-            <div class="content">
-              <div class="item">
-                <h3 class="title">Apprentie - <span class="place"><a href="https://www.hardis-group.com/" target="_blank">HARDIS GROUP</a></span> <span class="year">(septembre 2016 - Present)</span></h3>
-                <p>Front-end : Bootstrap 4 et refonte de l'application en Angular 5, ng2-admin. Refonte visuelle, ajout de nouvelle fonctionnalité et correction de bug.</br>
-                  Création d'une service annexe permettant la gestion d'utilisateur Keycloak.</br>
-                  Back-end : développement Javascript et Java de service back en lien avec AWS, NoSQL.</br>
-                  Installation et gestion de Keycloak et Pydio. </p>
-              </div>
-              <div class="item">
-                <h3 class="title">Développeuse front-end - <span class="place"><a href="https://www.mousquetaires.com/" target="_blank">Groupement des Mousquetaires</a></span> <span class="year">(juillet 2016 - juillet 2016)</span></h3>
-                <p>Montée en compétence en Javascript.</br>
-                  Intégration web.</br>
-                  Visuel de planning et chiffrage des projets.</p>
-              </div>
-              <div class="item">
-                <h3 class="title">Stagiaire en développement JAVA - <span class="place"><a href="https://www.hardis-group.com/" target="_blank">HARDIS GROUP</a></span> <span class="year">(avril 2016 - juin 2016)</span></h3>
-                <p>Projet sous méthode agile, scrum.</br>
-                  Recette de code.</br>
-                  Création d'un programme convertissant un fichier csv en json/json schema.</br>
-                  BDD java avec Cucumber.</br>
-                  Création d'un programme qui découpe chaque attribut de tableau d'un fichier json en plusieurs fichiers du même format.</p>
-              </div>
-              <div class="item">
-                <h3 class="title">Infographiste/Assistante Chef de Projet - <span class="place"><a href="https://www.mousquetaires.com/" target="_blank">Groupement des Mousquetaires</a></span> <span class="year">(juillet 2015 - août 2015)</span></h3>
-                <p>Création de spécification fonctionnelles (Wireframes).</br>
-                  Création de visuels graphiques d’applications web, mobiles, tablettes.</br>
-                  Recette d’applications mobiles et tablettes, Bug Tracker.</br>
-                  Ouverture de ticket d’erreur sur Redmine.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+    <!-- js base -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-        <section class="latest section">
-          <div class="section-inner">
-            <h2 class="heading">Mon dernier projet</h2>
-            <div class="content">
-              <div class="item featured text-center">
-                <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">Portfolio - Projet "Retour d'exprience"</a></h3>
-                <p class="summary">A mobile app to help you make delicious potato salad</p>
-                <div class="featured-image">
-                  <a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
-                    <img class="img-responsive project-image" src="assets/images/projects/portfolio.png" alt="project name" />
-                  </a>
-                  <div class="ribbon">
-                    <div class="text">App</div>
-                  </div>
-                </div>
-                <div class="desc text-left">
-                  <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante
-                    dolor non turpis.</p>
-                  <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
-                </div>
-                <a class="btn btn-cta-secondary" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>
-              </div>
+    <!-- for demo purpose -->
+    <script src="js/jquery.cookie.js"></script>
 
-              <hr class="divider" />
-              <h2 class="heading">Mes projets</h2>
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="https://pigeons.agency/home" target="_blank">
-                  <img class="img-responsive project-image" src="assets/images/projects/pigeon.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <h3 class="title"><a href="https://pigeons.agency/home" target="_blank">Pigeon Agency - Projet web</a></h3>
-                  <p>Pigeon Agency est un jeu web où il est question d'élever des pigeons afin de les faire combattre contre les pigeons des autres joueurs. Je m'occupe de la refonte du front-end de la V2 actuellement en cours de développement.<br />
-                    Front-end technologies: HTML5, CSS (Bulma), Angular (Typescript)
-                  </p>
-                  <p><a class="more-link" href="https://pigeons.agency/home" target="_blank"><i class="fa fa-external-link"></i> Voir le site</a></p>
-                </div>
-              </div>
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/PaulinePoirot/shiny" target="_blank">
-                  <img class="img-responsive project-image" src="assets/images/projects/shiny.jpg" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <h3 class="title"><a href="https://github.com/PaulinePoirot/shiny" target="_blank">Shiny - Projet android</a></h3>
-                  <p>Shiny est une application mobile qui a pour rôle d'être semblable à un Pokédex. (Liste des pokémons de toutes les générations)
-                  </p>
-                  <p><a class="more-link" href="https://github.com/PaulinePoirot/shiny" target="_blank"><i class="fa fa-external-link"></i> Voir le github du projet</a></p>
-                </div>
-              </div>
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="http://mhfdmhmd-plusultra.glitch.me/" target="_blank">
-                  <img class="img-responsive project-image" src="assets/images/projects/plusUltra.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <h3 class="title"><a href="http://mhfdmhmd-plusultra.glitch.me/" target="_blank">Plus Ultra - Projet web</a></h3>
-                  <p>Plus Ultra est un site web de type wiképédia qui est centré sur le manga My Hero Academia de Kōhei Horikoshi.<br />
-                    Front-end technologies: HTML5, CSS (Materialize), Javascript (Vue.js)<br />
-                    Back-end technologies: Node.js (Express)
-                  </p>
-                  <p><a class="more-link" href="http://mhfdmhmd-plusultra.glitch.me/" target="_blank"><i class="fa fa-external-link"></i> Voir le site</a></p>
-                </div>
-              </div>
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.dropbox.com/s/5z8e4iiz0efynwo/IUT_Simulator-1.0-all.zip?dl=0" target="_blank">
-                  <img class="img-responsive project-image" src="assets/images/projects/iutSimulator.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <h3 class="title"><a href="https://www.dropbox.com/s/5z8e4iiz0efynwo/IUT_Simulator-1.0-all.zip?dl=0" target="_blank">IUT Simulator - Projet ren'py/python</a></h3>
-                  <p> IUT Simulator est un visual novel développé avec Ren’py, c’est à dire un roman intéractif. C’est un jeu vidéo dont l’histoire est basé sur une journée type à l'IUT de Montreuil.<br />
-                    Technologies: Renpy (python)</p>
-                  <p><a class="more-link" href="https://www.dropbox.com/s/5z8e4iiz0efynwo/IUT_Simulator-1.0-all.zip?dl=0" target="_blank"><i class="fa fa-link"></i> Télécharger le projet</a></p>
-                </div>
-              </div>
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="https://www.dropbox.com/s/8z5xqc3qzpoelpf/ptitCookie.zip?dl=0" target="_blank">
-                  <img class="img-responsive project-image" src="assets/images/projects/cookie.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <h3 class="title"><a href="https://www.dropbox.com/s/8z5xqc3qzpoelpf/ptitCookie.zip?dl=0" target="_blank">Ptit Cookie - Projet web</a></h3>
-                  <p>Ptit Cookie est un site web qui recense des idées et astuces utiles au quotidien, posté par les utilisateurs.<br />
-                    Front-end technologies: HTML5, CSS, Javascript (Vue.js)<br />
-                    Back-end technologies: Node.js (Express)
-                  </p>
-                  <p><a class="more-link" href="https://www.dropbox.com/s/8z5xqc3qzpoelpf/ptitCookie.zip?dl=0" target="_blank"><i class="fa fa-link"></i> Télécharger le projet</a></p>
-                </div>
-              </div>
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="https://generation-16-bits.glitch.me/" target="_blank">
-                  <img class="img-responsive project-image" src="assets/images/projects/gene16.png" alt="project name" />
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <h3 class="title"><a href="https://generation-16-bits.glitch.me/" target="_blank">Génération 16 bits - Projet web</a></h3>
-                  <p> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
-                    rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.<br />
-                    Front-end technologies: HTML5, CSS</p>
-                  <p><a class="more-link" href="https://generation-16-bits.glitch.me/" target="_blank"><i class="fa fa-external-link"></i> Voir le site</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+    <!-- waypoints for scroll spy -->
+    <script src="js/waypoints.min.js"></script>
 
-      <div class="secondary col-md-4 col-sm-12 col-xs-12">
-        <aside class="info aside section">
-          <div class="section-inner">
-            <h2 class="heading">About Me</h2>
-            <div class="content">
-              <p>Je m'appelle Pauline, j'ai 22 ans et je suis actuellement en quatrième année du cycle d'ingénieur à l'ESIEA.<br /><br /> J'effectue ce parcours en tant qu'apprentie dans l'entreprise de service informatique Hardis Group.
-                <p><img class="img-responsive project-image" src="assets/images/esiea.jpg" style="width: 180px;float: left;" /><img class="img-responsive project-image" src="assets/images/cfa.jpg" style="width: 160px;" /> </br>
-                  <img class="img-responsive project-image" src="assets/images/hardis.png" style="width: 160px;margin-left: auto;margin-right: auto;" /></p>
-            </div>
-          </div>
-        </aside>
+    <!-- maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/gmaps.js"></script>
 
-        <aside class="skills aside section">
-          <div class="section-inner">
-            <h2 class="heading">Compétences</h2>
-            <div class="content">
-              <p class="intro">
-                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
-              <div class="skillset">
-                <div class="item">
-                  <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
-                  <div class="level-bar">
-                    <div class="level-bar-inner" data-level="96%">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span></h3>
-                  <div class="level-bar">
-                    <div class="level-bar-inner" data-level="96%">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Expert</span></h3>
-                  <div class="level-bar">
-                    <div class="level-bar-inner" data-level="96%">
-                    </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <h3 class="level-title">Ruby on Rails<span class="level-label">Pro</span></h3>
-                  <div class="level-bar">
-                    <div class="level-bar-inner" data-level="85%">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </aside>
+    <!-- masonry layout -->
+    <script src="js/masonry.pkgd.min.js"></script>
 
-        <!-- <aside class="testimonials aside section">
-          <div class="section-inner">
-            <h2 class="heading">Testimonials</h2>
-            <div class="content">
-              <div class="item">
-                <blockquote class="quote">
-                  <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                </blockquote>
-                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>
-              </div>
-              <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
-            </div>
-          </div>
-        </aside> -->
-
-        <aside class="education aside section">
-          <div class="section-inner">
-            <h2 class="heading">Education</h2>
-            <div class="content">
-              <div class="item">
-                <h3 class="title"><i class="fa fa-graduation-cap"></i> Diplôme d'ingénieur en alternance</h3>
-                <h5 style="font-size: 10px;color: #999999;padding-left:25px;font-family:Lato, arial, sans-serif;">Quatrième année en filière Systèmes d'Information.</h5>
-                <h4 class="university">ESIEA <span class="year">(2017-2020)</span></h4>
-              </div>
-              <div class="item">
-                <h3 class="title"><i class="fa fa-graduation-cap"></i> Licence Professionnelle CSID </h3>
-                <h5 style="font-size: 10px;color: #999999;padding-left:25px;font-family:Lato, arial, sans-serif;">Métiers de L’informatique : Développeur d'applications - option Concepteur des Systèmes d’Information, Développeur agile.</h5>
-                <h4 class="university">IUT de Montreuil <span class="year">(2016-2017)</span></h4>
-              </div>
-              <div class="item">
-                <h3 class="title"><i class="fa fa-graduation-cap"></i> DUT Informatique </h3>
-                <h5 style="font-size: 10px;color: #999999;padding-left:25px;font-family:Lato, arial, sans-serif;">Parcours long : Mathématique pour l'ingénieur, Web sémantique, XML, Sécurité, Jeux vidéo, Indexation et recherche d'informations.</h5>
-                <h4 class="university">IUT de Montreuil <span class="year">(2014-2016)</span></h4>
-              </div>
-              <div class="item">
-                <h3 class="title"><i class="fa fa-graduation-cap"></i> Baccalauréat Général Littéraire </h3>
-                <h5 style="font-size: 10px;color: #999999;padding-left:25px;font-family:Lato, arial, sans-serif;">Spécialités Espagnol, littérature Anglaise et option Chinois.</h5>
-                <h4 class="university">Lycée privée Saint François de Sales <span class="year">(2013-2014)</span></h4>
-              </div>
-            </div>
-          </div>
-        </aside>
-
-        <aside class="languages aside section">
-          <div class="section-inner">
-            <h2 class="heading">Langues</h2>
-            <div class="content">
-              <ul class="list-unstyled">
-                <li class="item">
-                  <span class="title"><strong>Français :</strong></span>
-                  <span class="level">Langue natale <br class="visible-xs" /></li>
-                <li class="item">
-                  <span class="title"><strong>Anglais :</strong></span>
-                  <span class="level">Compétence professionnelle <br class="visible-xs" /></li>
-                <li class="item">
-                  <span class="title"><strong>Espagnol :</strong></span>
-                  <span class="level">Compétence limitée <br class="visible-sm visible-xs" /></li>
-                <li class="item">
-                  <span class="title"><strong>Chinois :</strong></span>
-                  <span class="level">Notions élémentaires <br class="visible-sm visible-xs" /></li>
-              </ul>
-            </div>
-          </div>
-        </aside>
-
-        <aside class="blog aside section">
-          <div class="section-inner">
-            <h2 class="heading">Latest Blog Posts</h2>
-            <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-            <div id="rss-feeds" class="content">
-
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </aside>
-        <!--//section-->
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
 
 
-      </div>
-    </div>
-  </div>
+    <!-- jQuery scroll to -->
+    <script src="js/jquery.scrollTo.min.js"></script>
 
-  <!-- ******FOOTER****** -->
-  <footer class="footer">
-    <div class="container text-center">
-      <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">3rd Wave Media</a> for developers</small>
-    </div>
-    <!--//container-->
-  </footer>
-  <!--//footer-->
+    <!-- jQuery counter -->
+    <script src="js/jquery.counterup.min.js"></script>
 
-  <!-- Javascript -->
-  <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
-  <!-- github activity plugin -->
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-  <script type="text/javascript" src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
-  <!-- custom js -->
-  <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- jQuery parallax -->
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+
+    <!-- main js file -->
+
+    <script src="js/front.js"></script>
+
+
+
+
+
 </body>
 
 </html>

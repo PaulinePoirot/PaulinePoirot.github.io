@@ -1,2 +1,1 @@
-#To enforce or deny complete folder listing
-IndexIgnore *
+AddDefaultCharset UTF-8
